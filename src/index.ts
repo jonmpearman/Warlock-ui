@@ -1,7 +1,9 @@
-import StyledParagraph from './styled-components/WarParagraph';
-import Button from './components/WarButton';
+import { StyledParagraph as Paragraph } from './styled-components/WarParagraph';
+import { Button } from './components/WarButton';
+import { BaseTheme } from './theme/default';
 
-export default {
+export {
     Button,
-    Paragraph: StyledParagraph
+    Paragraph,
+    BaseTheme
 }

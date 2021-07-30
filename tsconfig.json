@@ -10,7 +10,10 @@
       "moduleResolution": "node",
       "allowSyntheticDefaultImports": true,
       "declaration": true,
-      "esModuleInterop": true
+      "esModuleInterop": true,
+      "paths": {
+        "test-utils": ["./test-setup/test-utils"]
+      }
     },
     "include": ["src/**/*"],
     "exclude": ["node_modules", "dist/**/*"]
